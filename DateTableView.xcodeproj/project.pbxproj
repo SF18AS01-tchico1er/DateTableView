@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8296D9EA2226F10700742295 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8296D9E92226F10700742295 /* AppDelegate.swift */; };
+		8296D9EF2226F10700742295 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8296D9ED2226F10700742295 /* Main.storyboard */; };
+		8296D9F22226F10700742295 /* DateTableView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8296D9F02226F10700742295 /* DateTableView.xcdatamodeld */; };
+		8296D9F42226F10900742295 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8296D9F32226F10900742295 /* Assets.xcassets */; };
+		8296D9F72226F10900742295 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8296D9F52226F10900742295 /* LaunchScreen.storyboard */; };
+		8296DA022226F10900742295 /* DateTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8296DA012226F10900742295 /* DateTableViewTests.swift */; };
+		8296DA0D2226F10900742295 /* DateTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8296DA0C2226F10900742295 /* DateTableViewUITests.swift */; };
+		8296DA1B2226F13400742295 /* DateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8296DA1A2226F13400742295 /* DateTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8296D9FE2226F10900742295 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8296D9DE2226F10700742295 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8296D9E52226F10700742295;
+			remoteInfo = DateTableView;
+		};
+		8296DA092226F10900742295 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8296D9DE2226F10700742295 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8296D9E52226F10700742295;
+			remoteInfo = DateTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8296D9E62226F10700742295 /* DateTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DateTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8296D9E92226F10700742295 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8296D9EE2226F10700742295 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8296D9F12226F10700742295 /* DateTableView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DateTableView.xcdatamodel; sourceTree = "<group>"; };
+		8296D9F32226F10900742295 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8296D9F62226F10900742295 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8296D9F82226F10900742295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8296D9FD2226F10900742295 /* DateTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DateTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8296DA012226F10900742295 /* DateTableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTableViewTests.swift; sourceTree = "<group>"; };
+		8296DA032226F10900742295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8296DA082226F10900742295 /* DateTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DateTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8296DA0C2226F10900742295 /* DateTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTableViewUITests.swift; sourceTree = "<group>"; };
+		8296DA0E2226F10900742295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8296DA1A2226F13400742295 /* DateTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8296D9E32226F10700742295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8296D9FA2226F10900742295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8296DA052226F10900742295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8296D9DD2226F10700742295 = {
+			isa = PBXGroup;
+			children = (
+				8296D9E82226F10700742295 /* DateTableView */,
+				8296DA002226F10900742295 /* DateTableViewTests */,
+				8296DA0B2226F10900742295 /* DateTableViewUITests */,
+				8296D9E72226F10700742295 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8296D9E72226F10700742295 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8296D9E62226F10700742295 /* DateTableView.app */,
+				8296D9FD2226F10900742295 /* DateTableViewTests.xctest */,
+				8296DA082226F10900742295 /* DateTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8296D9E82226F10700742295 /* DateTableView */ = {
+			isa = PBXGroup;
+			children = (
+				8296D9E92226F10700742295 /* AppDelegate.swift */,
+				8296DA1A2226F13400742295 /* DateTableViewController.swift */,
+				8296D9ED2226F10700742295 /* Main.storyboard */,
+				8296D9F32226F10900742295 /* Assets.xcassets */,
+				8296D9F52226F10900742295 /* LaunchScreen.storyboard */,
+				8296D9F82226F10900742295 /* Info.plist */,
+				8296D9F02226F10700742295 /* DateTableView.xcdatamodeld */,
+			);
+			path = DateTableView;
+			sourceTree = "<group>";
+		};
+		8296DA002226F10900742295 /* DateTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				8296DA012226F10900742295 /* DateTableViewTests.swift */,
+				8296DA032226F10900742295 /* Info.plist */,
+			);
+			path = DateTableViewTests;
+			sourceTree = "<group>";
+		};
+		8296DA0B2226F10900742295 /* DateTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8296DA0C2226F10900742295 /* DateTableViewUITests.swift */,
+				8296DA0E2226F10900742295 /* Info.plist */,
+			);
+			path = DateTableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8296D9E52226F10700742295 /* DateTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8296DA112226F10900742295 /* Build configuration list for PBXNativeTarget "DateTableView" */;
+			buildPhases = (
+				8296D9E22226F10700742295 /* Sources */,
+				8296D9E32226F10700742295 /* Frameworks */,
+				8296D9E42226F10700742295 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DateTableView;
+			productName = DateTableView;
+			productReference = 8296D9E62226F10700742295 /* DateTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8296D9FC2226F10900742295 /* DateTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8296DA142226F10900742295 /* Build configuration list for PBXNativeTarget "DateTableViewTests" */;
+			buildPhases = (
+				8296D9F92226F10900742295 /* Sources */,
+				8296D9FA2226F10900742295 /* Frameworks */,
+				8296D9FB2226F10900742295 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8296D9FF2226F10900742295 /* PBXTargetDependency */,
+			);
+			name = DateTableViewTests;
+			productName = DateTableViewTests;
+			productReference = 8296D9FD2226F10900742295 /* DateTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8296DA072226F10900742295 /* DateTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8296DA172226F10900742295 /* Build configuration list for PBXNativeTarget "DateTableViewUITests" */;
+			buildPhases = (
+				8296DA042226F10900742295 /* Sources */,
+				8296DA052226F10900742295 /* Frameworks */,
+				8296DA062226F10900742295 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8296DA0A2226F10900742295 /* PBXTargetDependency */,
+			);
+			name = DateTableViewUITests;
+			productName = DateTableViewUITests;
+			productReference = 8296DA082226F10900742295 /* DateTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8296D9DE2226F10700742295 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "TIEGO Ouedraogo";
+				TargetAttributes = {
+					8296D9E52226F10700742295 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					8296D9FC2226F10900742295 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8296D9E52226F10700742295;
+					};
+					8296DA072226F10900742295 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8296D9E52226F10700742295;
+					};
+				};
+			};
+			buildConfigurationList = 8296D9E12226F10700742295 /* Build configuration list for PBXProject "DateTableView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8296D9DD2226F10700742295;
+			productRefGroup = 8296D9E72226F10700742295 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8296D9E52226F10700742295 /* DateTableView */,
+				8296D9FC2226F10900742295 /* DateTableViewTests */,
+				8296DA072226F10900742295 /* DateTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8296D9E42226F10700742295 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8296D9F72226F10900742295 /* LaunchScreen.storyboard in Resources */,
+				8296D9F42226F10900742295 /* Assets.xcassets in Resources */,
+				8296D9EF2226F10700742295 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8296D9FB2226F10900742295 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8296DA062226F10900742295 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8296D9E22226F10700742295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8296DA1B2226F13400742295 /* DateTableViewController.swift in Sources */,
+				8296D9F22226F10700742295 /* DateTableView.xcdatamodeld in Sources */,
+				8296D9EA2226F10700742295 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8296D9F92226F10900742295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8296DA022226F10900742295 /* DateTableViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8296DA042226F10900742295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8296DA0D2226F10900742295 /* DateTableViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8296D9FF2226F10900742295 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8296D9E52226F10700742295 /* DateTableView */;
+			targetProxy = 8296D9FE2226F10900742295 /* PBXContainerItemProxy */;
+		};
+		8296DA0A2226F10900742295 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8296D9E52226F10700742295 /* DateTableView */;
+			targetProxy = 8296DA092226F10900742295 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8296D9ED2226F10700742295 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8296D9EE2226F10700742295 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8296D9F52226F10900742295 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8296D9F62226F10900742295 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8296DA0F2226F10900742295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8296DA102226F10900742295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8296DA122226F10900742295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DateTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.DateTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8296DA132226F10900742295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DateTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.DateTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8296DA152226F10900742295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DateTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.DateTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DateTableView.app/DateTableView";
+			};
+			name = Debug;
+		};
+		8296DA162226F10900742295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DateTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.DateTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DateTableView.app/DateTableView";
+			};
+			name = Release;
+		};
+		8296DA182226F10900742295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DateTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.DateTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DateTableView;
+			};
+			name = Debug;
+		};
+		8296DA192226F10900742295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DateTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.DateTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DateTableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8296D9E12226F10700742295 /* Build configuration list for PBXProject "DateTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8296DA0F2226F10900742295 /* Debug */,
+				8296DA102226F10900742295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8296DA112226F10900742295 /* Build configuration list for PBXNativeTarget "DateTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8296DA122226F10900742295 /* Debug */,
+				8296DA132226F10900742295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8296DA142226F10900742295 /* Build configuration list for PBXNativeTarget "DateTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8296DA152226F10900742295 /* Debug */,
+				8296DA162226F10900742295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8296DA172226F10900742295 /* Build configuration list for PBXNativeTarget "DateTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8296DA182226F10900742295 /* Debug */,
+				8296DA192226F10900742295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8296D9F02226F10700742295 /* DateTableView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8296D9F12226F10700742295 /* DateTableView.xcdatamodel */,
+			);
+			currentVersion = 8296D9F12226F10700742295 /* DateTableView.xcdatamodel */;
+			path = DateTableView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8296D9DE2226F10700742295 /* Project object */;
+}
